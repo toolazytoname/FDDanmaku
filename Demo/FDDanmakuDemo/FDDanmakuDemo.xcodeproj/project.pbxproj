@@ -33,6 +33,9 @@
 		446CDC271D4B46BF009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */; };
 		446CDC281D4B46BF009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */; };
 		446CDC291D4B46BF009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */; };
+		446CDC2C1D4B4869009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC2B1D4B4869009EB769 /* FDCache.m */; };
+		446CDC2D1D4B4869009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC2B1D4B4869009EB769 /* FDCache.m */; };
+		446CDC2E1D4B4869009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC2B1D4B4869009EB769 /* FDCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,8 @@
 		446CDC211D4B46AC009EB769 /* FDDanmakuONScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuONScreen.m; sourceTree = "<group>"; };
 		446CDC251D4B46BF009EB769 /* FDDanmakuCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuCache.h; sourceTree = "<group>"; };
 		446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuCache.m; sourceTree = "<group>"; };
+		446CDC2A1D4B4869009EB769 /* FDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCache.h; sourceTree = "<group>"; };
+		446CDC2B1D4B4869009EB769 /* FDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,10 +179,12 @@
 		446CDC0B1D4B359E009EB769 /* FDDanmaku */ = {
 			isa = PBXGroup;
 			children = (
-				446CDC111D4B411A009EB769 /* FDDanmakuUtility.h */,
-				446CDC121D4B411A009EB769 /* FDDanmakuUtility.m */,
+				446CDC2A1D4B4869009EB769 /* FDCache.h */,
+				446CDC2B1D4B4869009EB769 /* FDCache.m */,
 				446CDC251D4B46BF009EB769 /* FDDanmakuCache.h */,
 				446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */,
+				446CDC111D4B411A009EB769 /* FDDanmakuUtility.h */,
+				446CDC121D4B411A009EB769 /* FDDanmakuUtility.m */,
 				446CDC1B1D4B4516009EB769 /* FDDanmakuModel.h */,
 				446CDC1C1D4B4516009EB769 /* FDDanmakuModel.m */,
 				446CDC161D4B4488009EB769 /* FDDanmakuView.h */,
@@ -320,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446CDC2C1D4B4869009EB769 /* FDCache.m in Sources */,
 				446CDC131D4B411A009EB769 /* FDDanmakuUtility.m in Sources */,
 				446CDBE01D4B352F009EB769 /* ViewController.m in Sources */,
 				446CDBDD1D4B352F009EB769 /* AppDelegate.m in Sources */,
@@ -338,6 +346,7 @@
 			files = (
 				446CDC191D4B4488009EB769 /* FDDanmakuView.m in Sources */,
 				446CDC0F1D4B40C5009EB769 /* FDDanmakuViewController.m in Sources */,
+				446CDC2D1D4B4869009EB769 /* FDCache.m in Sources */,
 				446CDC141D4B411A009EB769 /* FDDanmakuUtility.m in Sources */,
 				446CDC1E1D4B4516009EB769 /* FDDanmakuModel.m in Sources */,
 				446CDC281D4B46BF009EB769 /* FDDanmakuCache.m in Sources */,
@@ -352,6 +361,7 @@
 			files = (
 				446CDC1A1D4B4488009EB769 /* FDDanmakuView.m in Sources */,
 				446CDC101D4B40C5009EB769 /* FDDanmakuViewController.m in Sources */,
+				446CDC2E1D4B4869009EB769 /* FDCache.m in Sources */,
 				446CDC151D4B411A009EB769 /* FDDanmakuUtility.m in Sources */,
 				446CDC1F1D4B4516009EB769 /* FDDanmakuModel.m in Sources */,
 				446CDC291D4B46BF009EB769 /* FDDanmakuCache.m in Sources */,
