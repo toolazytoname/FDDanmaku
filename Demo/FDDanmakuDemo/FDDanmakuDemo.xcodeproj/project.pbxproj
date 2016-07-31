@@ -15,27 +15,27 @@
 		446CDBE81D4B352F009EB769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446CDBE61D4B352F009EB769 /* LaunchScreen.storyboard */; };
 		446CDBF31D4B352F009EB769 /* FDDanmakuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDBF21D4B352F009EB769 /* FDDanmakuDemoTests.m */; };
 		446CDBFE1D4B352F009EB769 /* FDDanmakuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDBFD1D4B352F009EB769 /* FDDanmakuDemoUITests.m */; };
-		446CDC0E1D4B40C5009EB769 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC0D1D4B40C5009EB769 /* FDDanmakuViewController.m */; };
-		446CDC0F1D4B40C5009EB769 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC0D1D4B40C5009EB769 /* FDDanmakuViewController.m */; };
-		446CDC101D4B40C5009EB769 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC0D1D4B40C5009EB769 /* FDDanmakuViewController.m */; };
-		446CDC131D4B411A009EB769 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC121D4B411A009EB769 /* FDDanmakuUtility.m */; };
-		446CDC141D4B411A009EB769 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC121D4B411A009EB769 /* FDDanmakuUtility.m */; };
-		446CDC151D4B411A009EB769 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC121D4B411A009EB769 /* FDDanmakuUtility.m */; };
-		446CDC181D4B4488009EB769 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC171D4B4488009EB769 /* FDDanmakuView.m */; };
-		446CDC191D4B4488009EB769 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC171D4B4488009EB769 /* FDDanmakuView.m */; };
-		446CDC1A1D4B4488009EB769 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC171D4B4488009EB769 /* FDDanmakuView.m */; };
-		446CDC1D1D4B4516009EB769 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC1C1D4B4516009EB769 /* FDDanmakuModel.m */; };
-		446CDC1E1D4B4516009EB769 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC1C1D4B4516009EB769 /* FDDanmakuModel.m */; };
-		446CDC1F1D4B4516009EB769 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC1C1D4B4516009EB769 /* FDDanmakuModel.m */; };
-		446CDC221D4B46AC009EB769 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC211D4B46AC009EB769 /* FDDanmakuONScreen.m */; };
-		446CDC231D4B46AC009EB769 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC211D4B46AC009EB769 /* FDDanmakuONScreen.m */; };
-		446CDC241D4B46AC009EB769 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC211D4B46AC009EB769 /* FDDanmakuONScreen.m */; };
-		446CDC271D4B46BF009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */; };
-		446CDC281D4B46BF009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */; };
-		446CDC291D4B46BF009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */; };
-		446CDC2C1D4B4869009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC2B1D4B4869009EB769 /* FDCache.m */; };
-		446CDC2D1D4B4869009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC2B1D4B4869009EB769 /* FDCache.m */; };
-		446CDC2E1D4B4869009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC2B1D4B4869009EB769 /* FDCache.m */; };
+		446CDC861D4DB4C5009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC791D4DB4C5009EB769 /* FDCache.m */; };
+		446CDC871D4DB4C5009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC791D4DB4C5009EB769 /* FDCache.m */; };
+		446CDC881D4DB4C5009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC791D4DB4C5009EB769 /* FDCache.m */; };
+		446CDC891D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */; };
+		446CDC8A1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */; };
+		446CDC8B1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */; };
+		446CDC8C1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */; };
+		446CDC8D1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */; };
+		446CDC8E1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */; };
+		446CDC8F1D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */; };
+		446CDC901D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */; };
+		446CDC911D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */; };
+		446CDC921D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */; };
+		446CDC931D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */; };
+		446CDC941D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */; };
+		446CDC951D4DB4C5009EB769 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */; };
+		446CDC961D4DB4C5009EB769 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */; };
+		446CDC971D4DB4C5009EB769 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */; };
+		446CDC981D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */; };
+		446CDC991D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */; };
+		446CDC9A1D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,20 +72,20 @@
 		446CDBF91D4B352F009EB769 /* FDDanmakuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDDanmakuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		446CDBFD1D4B352F009EB769 /* FDDanmakuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuDemoUITests.m; sourceTree = "<group>"; };
 		446CDBFF1D4B352F009EB769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		446CDC0C1D4B40C5009EB769 /* FDDanmakuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuViewController.h; sourceTree = "<group>"; };
-		446CDC0D1D4B40C5009EB769 /* FDDanmakuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuViewController.m; sourceTree = "<group>"; };
-		446CDC111D4B411A009EB769 /* FDDanmakuUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuUtility.h; sourceTree = "<group>"; };
-		446CDC121D4B411A009EB769 /* FDDanmakuUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuUtility.m; sourceTree = "<group>"; };
-		446CDC161D4B4488009EB769 /* FDDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuView.h; sourceTree = "<group>"; };
-		446CDC171D4B4488009EB769 /* FDDanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuView.m; sourceTree = "<group>"; };
-		446CDC1B1D4B4516009EB769 /* FDDanmakuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuModel.h; sourceTree = "<group>"; };
-		446CDC1C1D4B4516009EB769 /* FDDanmakuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuModel.m; sourceTree = "<group>"; };
-		446CDC201D4B46AC009EB769 /* FDDanmakuONScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuONScreen.h; sourceTree = "<group>"; };
-		446CDC211D4B46AC009EB769 /* FDDanmakuONScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuONScreen.m; sourceTree = "<group>"; };
-		446CDC251D4B46BF009EB769 /* FDDanmakuCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuCache.h; sourceTree = "<group>"; };
-		446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuCache.m; sourceTree = "<group>"; };
-		446CDC2A1D4B4869009EB769 /* FDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCache.h; sourceTree = "<group>"; };
-		446CDC2B1D4B4869009EB769 /* FDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCache.m; sourceTree = "<group>"; };
+		446CDC781D4DB4C5009EB769 /* FDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCache.h; sourceTree = "<group>"; };
+		446CDC791D4DB4C5009EB769 /* FDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCache.m; sourceTree = "<group>"; };
+		446CDC7A1D4DB4C5009EB769 /* FDDanmakuCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuCache.h; sourceTree = "<group>"; };
+		446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuCache.m; sourceTree = "<group>"; };
+		446CDC7C1D4DB4C5009EB769 /* FDDanmakuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuModel.h; sourceTree = "<group>"; };
+		446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuModel.m; sourceTree = "<group>"; };
+		446CDC7E1D4DB4C5009EB769 /* FDDanmakuONScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuONScreen.h; sourceTree = "<group>"; };
+		446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuONScreen.m; sourceTree = "<group>"; };
+		446CDC801D4DB4C5009EB769 /* FDDanmakuUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuUtility.h; sourceTree = "<group>"; };
+		446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuUtility.m; sourceTree = "<group>"; };
+		446CDC821D4DB4C5009EB769 /* FDDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuView.h; sourceTree = "<group>"; };
+		446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuView.m; sourceTree = "<group>"; };
+		446CDC841D4DB4C5009EB769 /* FDDanmakuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuViewController.h; sourceTree = "<group>"; };
+		446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +136,7 @@
 		446CDBD71D4B352F009EB769 /* FDDanmakuDemo */ = {
 			isa = PBXGroup;
 			children = (
-				446CDC0B1D4B359E009EB769 /* FDDanmaku */,
+				446CDC771D4DB4C5009EB769 /* FDDanmaku */,
 				446CDBDB1D4B352F009EB769 /* AppDelegate.h */,
 				446CDBDC1D4B352F009EB769 /* AppDelegate.m */,
 				446CDBDE1D4B352F009EB769 /* ViewController.h */,
@@ -176,25 +176,26 @@
 			path = FDDanmakuDemoUITests;
 			sourceTree = "<group>";
 		};
-		446CDC0B1D4B359E009EB769 /* FDDanmaku */ = {
+		446CDC771D4DB4C5009EB769 /* FDDanmaku */ = {
 			isa = PBXGroup;
 			children = (
-				446CDC2A1D4B4869009EB769 /* FDCache.h */,
-				446CDC2B1D4B4869009EB769 /* FDCache.m */,
-				446CDC251D4B46BF009EB769 /* FDDanmakuCache.h */,
-				446CDC261D4B46BF009EB769 /* FDDanmakuCache.m */,
-				446CDC111D4B411A009EB769 /* FDDanmakuUtility.h */,
-				446CDC121D4B411A009EB769 /* FDDanmakuUtility.m */,
-				446CDC1B1D4B4516009EB769 /* FDDanmakuModel.h */,
-				446CDC1C1D4B4516009EB769 /* FDDanmakuModel.m */,
-				446CDC161D4B4488009EB769 /* FDDanmakuView.h */,
-				446CDC171D4B4488009EB769 /* FDDanmakuView.m */,
-				446CDC0C1D4B40C5009EB769 /* FDDanmakuViewController.h */,
-				446CDC0D1D4B40C5009EB769 /* FDDanmakuViewController.m */,
-				446CDC201D4B46AC009EB769 /* FDDanmakuONScreen.h */,
-				446CDC211D4B46AC009EB769 /* FDDanmakuONScreen.m */,
+				446CDC781D4DB4C5009EB769 /* FDCache.h */,
+				446CDC791D4DB4C5009EB769 /* FDCache.m */,
+				446CDC7A1D4DB4C5009EB769 /* FDDanmakuCache.h */,
+				446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */,
+				446CDC7C1D4DB4C5009EB769 /* FDDanmakuModel.h */,
+				446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */,
+				446CDC7E1D4DB4C5009EB769 /* FDDanmakuONScreen.h */,
+				446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */,
+				446CDC801D4DB4C5009EB769 /* FDDanmakuUtility.h */,
+				446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */,
+				446CDC821D4DB4C5009EB769 /* FDDanmakuView.h */,
+				446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */,
+				446CDC841D4DB4C5009EB769 /* FDDanmakuViewController.h */,
+				446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */,
 			);
-			path = FDDanmaku;
+			name = FDDanmaku;
+			path = ../../../FDDanmaku;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,15 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446CDC2C1D4B4869009EB769 /* FDCache.m in Sources */,
-				446CDC131D4B411A009EB769 /* FDDanmakuUtility.m in Sources */,
+				446CDC891D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
+				446CDC951D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
+				446CDC8C1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
+				446CDC8F1D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
+				446CDC981D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
 				446CDBE01D4B352F009EB769 /* ViewController.m in Sources */,
+				446CDC921D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
 				446CDBDD1D4B352F009EB769 /* AppDelegate.m in Sources */,
-				446CDC0E1D4B40C5009EB769 /* FDDanmakuViewController.m in Sources */,
-				446CDC181D4B4488009EB769 /* FDDanmakuView.m in Sources */,
-				446CDC271D4B46BF009EB769 /* FDDanmakuCache.m in Sources */,
-				446CDC1D1D4B4516009EB769 /* FDDanmakuModel.m in Sources */,
-				446CDC221D4B46AC009EB769 /* FDDanmakuONScreen.m in Sources */,
+				446CDC861D4DB4C5009EB769 /* FDCache.m in Sources */,
 				446CDBDA1D4B352F009EB769 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,14 +345,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446CDC191D4B4488009EB769 /* FDDanmakuView.m in Sources */,
-				446CDC0F1D4B40C5009EB769 /* FDDanmakuViewController.m in Sources */,
-				446CDC2D1D4B4869009EB769 /* FDCache.m in Sources */,
-				446CDC141D4B411A009EB769 /* FDDanmakuUtility.m in Sources */,
-				446CDC1E1D4B4516009EB769 /* FDDanmakuModel.m in Sources */,
-				446CDC281D4B46BF009EB769 /* FDDanmakuCache.m in Sources */,
-				446CDC231D4B46AC009EB769 /* FDDanmakuONScreen.m in Sources */,
+				446CDC871D4DB4C5009EB769 /* FDCache.m in Sources */,
 				446CDBF31D4B352F009EB769 /* FDDanmakuDemoTests.m in Sources */,
+				446CDC901D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
+				446CDC8A1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
+				446CDC931D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
+				446CDC961D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
+				446CDC991D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
+				446CDC8D1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,14 +360,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446CDC1A1D4B4488009EB769 /* FDDanmakuView.m in Sources */,
-				446CDC101D4B40C5009EB769 /* FDDanmakuViewController.m in Sources */,
-				446CDC2E1D4B4869009EB769 /* FDCache.m in Sources */,
-				446CDC151D4B411A009EB769 /* FDDanmakuUtility.m in Sources */,
-				446CDC1F1D4B4516009EB769 /* FDDanmakuModel.m in Sources */,
-				446CDC291D4B46BF009EB769 /* FDDanmakuCache.m in Sources */,
-				446CDC241D4B46AC009EB769 /* FDDanmakuONScreen.m in Sources */,
+				446CDC881D4DB4C5009EB769 /* FDCache.m in Sources */,
 				446CDBFE1D4B352F009EB769 /* FDDanmakuDemoUITests.m in Sources */,
+				446CDC911D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
+				446CDC8B1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
+				446CDC941D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
+				446CDC971D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
+				446CDC9A1D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
+				446CDC8E1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
