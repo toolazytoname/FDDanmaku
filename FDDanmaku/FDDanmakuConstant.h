@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface FDDanmakuConstant : NSObject
+
 /**
  *  弹幕类型
  */
@@ -67,6 +68,28 @@ typedef NS_ENUM(NSInteger, FDDanmakuShadowColorType) {
     FDDanmakuShadowColorTypeGreen
 };
 
+
+/**
+ *  弹幕view类型
+ */
+typedef NS_ENUM(NSInteger, FDDanmakuFrameType) {
+    /**
+     *  Phone小屏
+     */
+    FDDanmakuFrameTypePhoneInline,
+    /**
+     *  Phone全屏
+     */
+    FDDanmakuFrameTypePhoneFullScreen,
+    /**
+     *  Pad小屏
+     */
+    FDDanmakuFrameTypePadInline,
+    /**
+     *  Pad大屏
+     */
+    FDDanmakuFrameTypePadFullScreen
+};
 
 
 @end

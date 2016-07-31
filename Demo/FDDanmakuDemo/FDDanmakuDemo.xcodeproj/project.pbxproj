@@ -39,6 +39,12 @@
 		446CDC9D1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */; };
 		446CDC9E1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */; };
 		446CDC9F1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */; };
+		446CDCA81D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */; };
+		446CDCA91D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */; };
+		446CDCAA1D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */; };
+		446CDCAD1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */; };
+		446CDCAE1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */; };
+		446CDCAF1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +98,10 @@
 		446CDC9B1D4DB74A009EB769 /* FDDanmakuConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuConstant.h; sourceTree = "<group>"; };
 		446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuConstant.m; sourceTree = "<group>"; };
 		446CDCA51D4DB79C009EB769 /* FDDanmakuHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuHeaders.h; sourceTree = "<group>"; };
+		446CDCA61D4DC6DB009EB769 /* FDDanmakuLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuLabel.h; sourceTree = "<group>"; };
+		446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuLabel.m; sourceTree = "<group>"; };
+		446CDCAB1D4DCB83009EB769 /* UIColor+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FDHelper.h"; sourceTree = "<group>"; };
+		446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FDHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +205,12 @@
 				446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */,
 				446CDC801D4DB4C5009EB769 /* FDDanmakuUtility.h */,
 				446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */,
+				446CDCAB1D4DCB83009EB769 /* UIColor+FDHelper.h */,
+				446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */,
 				446CDC821D4DB4C5009EB769 /* FDDanmakuView.h */,
 				446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */,
+				446CDCA61D4DC6DB009EB769 /* FDDanmakuLabel.h */,
+				446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */,
 				446CDC841D4DB4C5009EB769 /* FDDanmakuViewController.h */,
 				446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */,
 				446CDC9B1D4DB74A009EB769 /* FDDanmakuConstant.h */,
@@ -341,12 +355,14 @@
 				446CDC951D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
 				446CDC8C1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
 				446CDC8F1D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
+				446CDCAD1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
 				446CDC981D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
 				446CDC9D1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */,
 				446CDBE01D4B352F009EB769 /* ViewController.m in Sources */,
 				446CDC921D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
 				446CDBDD1D4B352F009EB769 /* AppDelegate.m in Sources */,
 				446CDC861D4DB4C5009EB769 /* FDCache.m in Sources */,
+				446CDCA81D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
 				446CDBDA1D4B352F009EB769 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,10 +375,12 @@
 				446CDBF31D4B352F009EB769 /* FDDanmakuDemoTests.m in Sources */,
 				446CDC901D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
 				446CDC9E1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */,
+				446CDCAE1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
 				446CDC8A1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
 				446CDC931D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
 				446CDC961D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
 				446CDC991D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
+				446CDCA91D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
 				446CDC8D1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,10 +393,12 @@
 				446CDBFE1D4B352F009EB769 /* FDDanmakuDemoUITests.m in Sources */,
 				446CDC911D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
 				446CDC9F1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */,
+				446CDCAF1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
 				446CDC8B1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
 				446CDC941D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
 				446CDC971D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
 				446CDC9A1D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
+				446CDCAA1D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
 				446CDC8E1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,15 +7,34 @@
 //
 
 #import "FDDanmakuView.h"
+#import "FDDanmakuLabel.h"
+#import "FDDanmakuModel.h"
+#import "FDDanmakuConstant.h"
+#import "FDDanmakuLabel.h"
+
+@interface FDDanmakuView()
+//@property (nonatomic, retain) FDDanmakuLabel *itemLabel;
+@end
 
 @implementation FDDanmakuView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if(self) {
+        [self setBackgroundColor:[UIColor clearColor]];
+    }
+    return self;
 }
-*/
 
+- (void)updateWithModel:(FDDanmakuModel *)danmakuModel
+              FrameType:(FDDanmakuFrameType)frameType
+             viewHeight:(CGFloat)viewHeight {
+    if (!danmakuModel) {
+        return;
+    }
+    FDDanmakuLabel *label = [[FDDanmakuLabel alloc] initWithFrame:CGRectZero];
+    [label updateWithModel:danmakuModel FrameType:frameType viewHeight:viewHeight];
+    self.frame = label.frame;
+    [self addSubview:label];
+}
 @end
