@@ -67,6 +67,11 @@
 }
 
 - (void)pause {
+//TODO:
+    /**
+     *  这里能不能直接在最外层的大view，通过遍历子 view，做一次，pause 和resume？不用通过这种方式，获取每一个danmakuView
+     *
+     */
     [self.allDiretionsArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSMutableArray *directionArray = (NSMutableArray *)obj;
         [directionArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {

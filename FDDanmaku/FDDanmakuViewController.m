@@ -7,9 +7,14 @@
 //
 
 #import "FDDanmakuViewController.h"
+#import "FDDanmakuConstant.h"
+#import "FDDanmakuONScreen.h"
 
 @interface FDDanmakuViewController ()
 @property (nonatomic, strong) CADisplayLink *displayLink;
+@property (nonatomic, strong) FDDanmakuONScreen *danmakuONScreen;
+@property (nonatomic, assign) BOOL isDanmakuON;
+
 @end
 
 @implementation FDDanmakuViewController
@@ -32,9 +37,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)updateWithFrame:(CGRect)frame frameType:(FDDanmakuFrameType)frameType {
+    self.view.frame = frame;
+    if (FDDanmakuFrameTypePhoneInline == frameType) {
+        self.isDanmakuON = NO;
+    }
+}
+
 #pragma mark - lazy Load
 - (void)invalidateTimer {
     [self.displayLink invalidate];
+}
+
+- (FDDanmakuONScreen *)danmakuONScreen {
+    if (_danmakuONScreen) {
+        _danmakuONScreen = [[FDDanmakuONScreen alloc] init];
+    }
+    return _danmakuONScreen;
 }
 
 @end
