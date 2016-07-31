@@ -7,7 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FDDanmakuConstant.h"
 
 @interface FDDanmakuModel : NSObject
+
+@property (nonatomic, assign) BOOL sentByMyself;
+@property (nonatomic, assign) NSInteger createTime;
+@property (nonatomic, assign) NSInteger showTime;
+@property (nonatomic, assign) FDDanmakuFontSizeType fontSize;
+@property (nonatomic, copy)   NSString *content;
+@property (nonatomic, copy)   NSString *color;
+@property (nonatomic, copy)   NSString *headPicture;   //明星弹幕头像
+
+
 
 @end
