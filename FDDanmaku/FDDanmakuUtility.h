@@ -15,7 +15,10 @@
 + (void)pauseLayer:(CALayer *)layer;
 + (void)resumeLayer:(CALayer *)layer;
 
++ (NSInteger)rowNumberWithFrameType:(FDDanmakuFrameType)frameType;
+
 + (CGFloat)fontSizeWithFrameType:(FDDanmakuFrameType)frameType
                       viewHeight:(CGFloat)viewHeight
                     fontSizeType:(FDDanmakuFontSizeType)fontSizeType;
+
 @end

@@ -9,10 +9,18 @@
 #import "FDDanmakuViewController.h"
 
 @interface FDDanmakuViewController ()
-
+@property (nonatomic, strong) CADisplayLink *displayLink;
 @end
 
 @implementation FDDanmakuViewController
+#pragma mark - life cycle
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if(self) {
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,5 +32,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - lazy Load
+- (void)invalidateTimer {
+    [self.displayLink invalidate];
+}
 
 @end

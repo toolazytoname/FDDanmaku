@@ -32,6 +32,25 @@ typedef NS_ENUM(NSInteger , FDDanmakuType) {
     FDDanmakuTypeSendByMyself
 };
 
+/**
+ *  弹幕飞行方向枚举
+ */
+typedef NS_ENUM(NSInteger , FDDanmakuDirectionType) {
+    /**
+     *  从右向左
+     */
+    FDDanmakuDirectionTypeRight,
+    /**
+     *  从下往上
+     */
+    FDDanmakuDirectionTypeTop,
+    /**
+     *  从上往下
+     */
+    FDDanmakuDirectionTypeBottom
+};
+
+
 typedef NS_ENUM(NSInteger , FDDanmakuFontSizeType){
     FDDanmakuFontSizeTypeSmall,
     FDDanmakuFontSizeTypeMiddle,

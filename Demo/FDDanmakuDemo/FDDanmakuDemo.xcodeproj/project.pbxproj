@@ -45,6 +45,15 @@
 		446CDCAD1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */; };
 		446CDCAE1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */; };
 		446CDCAF1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */; };
+		446CDCB21D4DFD04009EB769 /* FDDanmakuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */; };
+		446CDCB31D4DFD04009EB769 /* FDDanmakuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */; };
+		446CDCB41D4DFD04009EB769 /* FDDanmakuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */; };
+		446CDCB71D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */; };
+		446CDCB81D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */; };
+		446CDCB91D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */; };
+		446CDCBC1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */; };
+		446CDCBD1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */; };
+		446CDCBE1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +111,12 @@
 		446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuLabel.m; sourceTree = "<group>"; };
 		446CDCAB1D4DCB83009EB769 /* UIColor+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FDHelper.h"; sourceTree = "<group>"; };
 		446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FDHelper.m"; sourceTree = "<group>"; };
+		446CDCB01D4DFD04009EB769 /* FDDanmakuRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuRow.h; sourceTree = "<group>"; };
+		446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuRow.m; sourceTree = "<group>"; };
+		446CDCB51D4E0BB5009EB769 /* NSArray+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FDHelper.h"; sourceTree = "<group>"; };
+		446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FDHelper.m"; sourceTree = "<group>"; };
+		446CDCBA1D4E0C7C009EB769 /* NSMutableArray+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FDHelper.h"; sourceTree = "<group>"; };
+		446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FDHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,27 +210,33 @@
 		446CDC771D4DB4C5009EB769 /* FDDanmaku */ = {
 			isa = PBXGroup;
 			children = (
+				446CDCA51D4DB79C009EB769 /* FDDanmakuHeaders.h */,
+				446CDC9B1D4DB74A009EB769 /* FDDanmakuConstant.h */,
+				446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */,
+				446CDCAB1D4DCB83009EB769 /* UIColor+FDHelper.h */,
+				446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */,
+				446CDCB51D4E0BB5009EB769 /* NSArray+FDHelper.h */,
+				446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */,
+				446CDCBA1D4E0C7C009EB769 /* NSMutableArray+FDHelper.h */,
+				446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */,
 				446CDC781D4DB4C5009EB769 /* FDCache.h */,
 				446CDC791D4DB4C5009EB769 /* FDCache.m */,
 				446CDC7A1D4DB4C5009EB769 /* FDDanmakuCache.h */,
 				446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */,
 				446CDC7C1D4DB4C5009EB769 /* FDDanmakuModel.h */,
 				446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */,
+				446CDCB01D4DFD04009EB769 /* FDDanmakuRow.h */,
+				446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */,
 				446CDC7E1D4DB4C5009EB769 /* FDDanmakuONScreen.h */,
 				446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */,
 				446CDC801D4DB4C5009EB769 /* FDDanmakuUtility.h */,
 				446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */,
-				446CDCAB1D4DCB83009EB769 /* UIColor+FDHelper.h */,
-				446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */,
 				446CDC821D4DB4C5009EB769 /* FDDanmakuView.h */,
 				446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */,
 				446CDCA61D4DC6DB009EB769 /* FDDanmakuLabel.h */,
 				446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */,
 				446CDC841D4DB4C5009EB769 /* FDDanmakuViewController.h */,
 				446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */,
-				446CDC9B1D4DB74A009EB769 /* FDDanmakuConstant.h */,
-				446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */,
-				446CDCA51D4DB79C009EB769 /* FDDanmakuHeaders.h */,
 			);
 			name = FDDanmaku;
 			path = ../../../FDDanmaku;
@@ -351,8 +372,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446CDCB71D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */,
 				446CDC891D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
 				446CDC951D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
+				446CDCBC1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */,
 				446CDC8C1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
 				446CDC8F1D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
 				446CDCAD1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
@@ -363,6 +386,7 @@
 				446CDBDD1D4B352F009EB769 /* AppDelegate.m in Sources */,
 				446CDC861D4DB4C5009EB769 /* FDCache.m in Sources */,
 				446CDCA81D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
+				446CDCB21D4DFD04009EB769 /* FDDanmakuRow.m in Sources */,
 				446CDBDA1D4B352F009EB769 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,12 +397,15 @@
 			files = (
 				446CDC871D4DB4C5009EB769 /* FDCache.m in Sources */,
 				446CDBF31D4B352F009EB769 /* FDDanmakuDemoTests.m in Sources */,
+				446CDCB81D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */,
 				446CDC901D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
 				446CDC9E1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */,
 				446CDCAE1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
 				446CDC8A1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
 				446CDC931D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
 				446CDC961D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
+				446CDCBD1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */,
+				446CDCB31D4DFD04009EB769 /* FDDanmakuRow.m in Sources */,
 				446CDC991D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
 				446CDCA91D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
 				446CDC8D1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
@@ -391,12 +418,15 @@
 			files = (
 				446CDC881D4DB4C5009EB769 /* FDCache.m in Sources */,
 				446CDBFE1D4B352F009EB769 /* FDDanmakuDemoUITests.m in Sources */,
+				446CDCB91D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */,
 				446CDC911D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
 				446CDC9F1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */,
 				446CDCAF1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
 				446CDC8B1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
 				446CDC941D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
 				446CDC971D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
+				446CDCBE1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */,
+				446CDCB41D4DFD04009EB769 /* FDDanmakuRow.m in Sources */,
 				446CDC9A1D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
 				446CDCAA1D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
 				446CDC8E1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,

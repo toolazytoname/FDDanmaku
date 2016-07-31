@@ -31,7 +31,7 @@
     CGFloat rowHeight = [self rowHeightWithFrameType:frameType viewHeight:viewHeight];
     CGSize size = CGSizeZero;
     NSInteger i ,fontSize = 0;
-    //TODO:逻辑比较怪，稍后完善
+    //TODO:这里逻辑比较怪，稍后完善
     for (i = 10; i < 50; i++) {
         size = [@"Barrage" sizeWithAttributes:@{ NSFontAttributeName: [UIFont systemFontOfSize:i] }];
         if(size.height > rowHeight)
