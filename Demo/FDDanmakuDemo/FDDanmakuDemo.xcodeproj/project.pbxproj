@@ -15,48 +15,48 @@
 		446CDBE81D4B352F009EB769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446CDBE61D4B352F009EB769 /* LaunchScreen.storyboard */; };
 		446CDBF31D4B352F009EB769 /* FDDanmakuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDBF21D4B352F009EB769 /* FDDanmakuDemoTests.m */; };
 		446CDBFE1D4B352F009EB769 /* FDDanmakuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDBFD1D4B352F009EB769 /* FDDanmakuDemoUITests.m */; };
-		446CDC861D4DB4C5009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC791D4DB4C5009EB769 /* FDCache.m */; };
-		446CDC871D4DB4C5009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC791D4DB4C5009EB769 /* FDCache.m */; };
-		446CDC881D4DB4C5009EB769 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC791D4DB4C5009EB769 /* FDCache.m */; };
-		446CDC891D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */; };
-		446CDC8A1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */; };
-		446CDC8B1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */; };
-		446CDC8C1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */; };
-		446CDC8D1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */; };
-		446CDC8E1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */; };
-		446CDC8F1D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */; };
-		446CDC901D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */; };
-		446CDC911D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */; };
-		446CDC921D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */; };
-		446CDC931D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */; };
-		446CDC941D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */; };
-		446CDC951D4DB4C5009EB769 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */; };
-		446CDC961D4DB4C5009EB769 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */; };
-		446CDC971D4DB4C5009EB769 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */; };
-		446CDC981D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */; };
-		446CDC991D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */; };
-		446CDC9A1D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */; };
-		446CDC9D1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */; };
-		446CDC9E1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */; };
-		446CDC9F1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */; };
-		446CDCA81D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */; };
-		446CDCA91D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */; };
-		446CDCAA1D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */; };
-		446CDCAD1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */; };
-		446CDCAE1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */; };
-		446CDCAF1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */; };
-		446CDCB21D4DFD04009EB769 /* FDDanmakuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */; };
-		446CDCB31D4DFD04009EB769 /* FDDanmakuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */; };
-		446CDCB41D4DFD04009EB769 /* FDDanmakuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */; };
-		446CDCB71D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */; };
-		446CDCB81D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */; };
-		446CDCB91D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */; };
-		446CDCBC1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */; };
-		446CDCBD1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */; };
-		446CDCBE1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */; };
-		44724EDA1D53611C0079DE29 /* UIView+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724ED91D53611C0079DE29 /* UIView+FDHelper.m */; };
-		44724EDB1D53611C0079DE29 /* UIView+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724ED91D53611C0079DE29 /* UIView+FDHelper.m */; };
-		44724EDC1D53611C0079DE29 /* UIView+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724ED91D53611C0079DE29 /* UIView+FDHelper.m */; };
+		44724EFD1D5373360079DE29 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EDF1D5373360079DE29 /* FDDanmakuONScreen.m */; };
+		44724EFE1D5373360079DE29 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EDF1D5373360079DE29 /* FDDanmakuONScreen.m */; };
+		44724EFF1D5373360079DE29 /* FDDanmakuONScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EDF1D5373360079DE29 /* FDDanmakuONScreen.m */; };
+		44724F001D5373360079DE29 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE11D5373360079DE29 /* FDDanmakuViewController.m */; };
+		44724F011D5373360079DE29 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE11D5373360079DE29 /* FDDanmakuViewController.m */; };
+		44724F021D5373360079DE29 /* FDDanmakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE11D5373360079DE29 /* FDDanmakuViewController.m */; };
+		44724F031D5373360079DE29 /* FDDanmakuConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE41D5373360079DE29 /* FDDanmakuConstant.m */; };
+		44724F041D5373360079DE29 /* FDDanmakuConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE41D5373360079DE29 /* FDDanmakuConstant.m */; };
+		44724F051D5373360079DE29 /* FDDanmakuConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE41D5373360079DE29 /* FDDanmakuConstant.m */; };
+		44724F061D5373360079DE29 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE61D5373360079DE29 /* FDDanmakuUtility.m */; };
+		44724F071D5373360079DE29 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE61D5373360079DE29 /* FDDanmakuUtility.m */; };
+		44724F081D5373360079DE29 /* FDDanmakuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE61D5373360079DE29 /* FDDanmakuUtility.m */; };
+		44724F091D5373360079DE29 /* NSArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE81D5373360079DE29 /* NSArray+FDHelper.m */; };
+		44724F0A1D5373360079DE29 /* NSArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE81D5373360079DE29 /* NSArray+FDHelper.m */; };
+		44724F0B1D5373360079DE29 /* NSArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EE81D5373360079DE29 /* NSArray+FDHelper.m */; };
+		44724F0C1D5373360079DE29 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EEA1D5373360079DE29 /* NSMutableArray+FDHelper.m */; };
+		44724F0D1D5373360079DE29 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EEA1D5373360079DE29 /* NSMutableArray+FDHelper.m */; };
+		44724F0E1D5373360079DE29 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EEA1D5373360079DE29 /* NSMutableArray+FDHelper.m */; };
+		44724F0F1D5373360079DE29 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EEC1D5373360079DE29 /* UIColor+FDHelper.m */; };
+		44724F101D5373360079DE29 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EEC1D5373360079DE29 /* UIColor+FDHelper.m */; };
+		44724F111D5373360079DE29 /* UIColor+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EEC1D5373360079DE29 /* UIColor+FDHelper.m */; };
+		44724F121D5373360079DE29 /* UIView+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EEE1D5373360079DE29 /* UIView+FDHelper.m */; };
+		44724F131D5373360079DE29 /* UIView+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EEE1D5373360079DE29 /* UIView+FDHelper.m */; };
+		44724F141D5373360079DE29 /* UIView+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EEE1D5373360079DE29 /* UIView+FDHelper.m */; };
+		44724F151D5373360079DE29 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF11D5373360079DE29 /* FDCache.m */; };
+		44724F161D5373360079DE29 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF11D5373360079DE29 /* FDCache.m */; };
+		44724F171D5373360079DE29 /* FDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF11D5373360079DE29 /* FDCache.m */; };
+		44724F181D5373360079DE29 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF31D5373360079DE29 /* FDDanmakuCache.m */; };
+		44724F191D5373360079DE29 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF31D5373360079DE29 /* FDDanmakuCache.m */; };
+		44724F1A1D5373360079DE29 /* FDDanmakuCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF31D5373360079DE29 /* FDDanmakuCache.m */; };
+		44724F1B1D5373360079DE29 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF51D5373360079DE29 /* FDDanmakuModel.m */; };
+		44724F1C1D5373360079DE29 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF51D5373360079DE29 /* FDDanmakuModel.m */; };
+		44724F1D1D5373360079DE29 /* FDDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF51D5373360079DE29 /* FDDanmakuModel.m */; };
+		44724F1E1D5373360079DE29 /* FDDanmakuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF71D5373360079DE29 /* FDDanmakuRow.m */; };
+		44724F1F1D5373360079DE29 /* FDDanmakuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF71D5373360079DE29 /* FDDanmakuRow.m */; };
+		44724F201D5373360079DE29 /* FDDanmakuRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EF71D5373360079DE29 /* FDDanmakuRow.m */; };
+		44724F211D5373360079DE29 /* FDDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EFA1D5373360079DE29 /* FDDanmakuLabel.m */; };
+		44724F221D5373360079DE29 /* FDDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EFA1D5373360079DE29 /* FDDanmakuLabel.m */; };
+		44724F231D5373360079DE29 /* FDDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EFA1D5373360079DE29 /* FDDanmakuLabel.m */; };
+		44724F241D5373360079DE29 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EFC1D5373360079DE29 /* FDDanmakuView.m */; };
+		44724F251D5373360079DE29 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EFC1D5373360079DE29 /* FDDanmakuView.m */; };
+		44724F261D5373360079DE29 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EFC1D5373360079DE29 /* FDDanmakuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,35 +93,35 @@
 		446CDBF91D4B352F009EB769 /* FDDanmakuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDDanmakuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		446CDBFD1D4B352F009EB769 /* FDDanmakuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuDemoUITests.m; sourceTree = "<group>"; };
 		446CDBFF1D4B352F009EB769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		446CDC781D4DB4C5009EB769 /* FDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCache.h; sourceTree = "<group>"; };
-		446CDC791D4DB4C5009EB769 /* FDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCache.m; sourceTree = "<group>"; };
-		446CDC7A1D4DB4C5009EB769 /* FDDanmakuCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuCache.h; sourceTree = "<group>"; };
-		446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuCache.m; sourceTree = "<group>"; };
-		446CDC7C1D4DB4C5009EB769 /* FDDanmakuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuModel.h; sourceTree = "<group>"; };
-		446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuModel.m; sourceTree = "<group>"; };
-		446CDC7E1D4DB4C5009EB769 /* FDDanmakuONScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuONScreen.h; sourceTree = "<group>"; };
-		446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuONScreen.m; sourceTree = "<group>"; };
-		446CDC801D4DB4C5009EB769 /* FDDanmakuUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuUtility.h; sourceTree = "<group>"; };
-		446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuUtility.m; sourceTree = "<group>"; };
-		446CDC821D4DB4C5009EB769 /* FDDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuView.h; sourceTree = "<group>"; };
-		446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuView.m; sourceTree = "<group>"; };
-		446CDC841D4DB4C5009EB769 /* FDDanmakuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuViewController.h; sourceTree = "<group>"; };
-		446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuViewController.m; sourceTree = "<group>"; };
-		446CDC9B1D4DB74A009EB769 /* FDDanmakuConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuConstant.h; sourceTree = "<group>"; };
-		446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuConstant.m; sourceTree = "<group>"; };
 		446CDCA51D4DB79C009EB769 /* FDDanmakuHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuHeaders.h; sourceTree = "<group>"; };
-		446CDCA61D4DC6DB009EB769 /* FDDanmakuLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuLabel.h; sourceTree = "<group>"; };
-		446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuLabel.m; sourceTree = "<group>"; };
-		446CDCAB1D4DCB83009EB769 /* UIColor+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FDHelper.h"; sourceTree = "<group>"; };
-		446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FDHelper.m"; sourceTree = "<group>"; };
-		446CDCB01D4DFD04009EB769 /* FDDanmakuRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuRow.h; sourceTree = "<group>"; };
-		446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuRow.m; sourceTree = "<group>"; };
-		446CDCB51D4E0BB5009EB769 /* NSArray+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FDHelper.h"; sourceTree = "<group>"; };
-		446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FDHelper.m"; sourceTree = "<group>"; };
-		446CDCBA1D4E0C7C009EB769 /* NSMutableArray+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FDHelper.h"; sourceTree = "<group>"; };
-		446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FDHelper.m"; sourceTree = "<group>"; };
-		44724ED81D53611C0079DE29 /* UIView+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDHelper.h"; sourceTree = "<group>"; };
-		44724ED91D53611C0079DE29 /* UIView+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDHelper.m"; sourceTree = "<group>"; };
+		44724EDE1D5373360079DE29 /* FDDanmakuONScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuONScreen.h; sourceTree = "<group>"; };
+		44724EDF1D5373360079DE29 /* FDDanmakuONScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuONScreen.m; sourceTree = "<group>"; };
+		44724EE01D5373360079DE29 /* FDDanmakuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuViewController.h; sourceTree = "<group>"; };
+		44724EE11D5373360079DE29 /* FDDanmakuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuViewController.m; sourceTree = "<group>"; };
+		44724EE31D5373360079DE29 /* FDDanmakuConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuConstant.h; sourceTree = "<group>"; };
+		44724EE41D5373360079DE29 /* FDDanmakuConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuConstant.m; sourceTree = "<group>"; };
+		44724EE51D5373360079DE29 /* FDDanmakuUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuUtility.h; sourceTree = "<group>"; };
+		44724EE61D5373360079DE29 /* FDDanmakuUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuUtility.m; sourceTree = "<group>"; };
+		44724EE71D5373360079DE29 /* NSArray+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FDHelper.h"; sourceTree = "<group>"; };
+		44724EE81D5373360079DE29 /* NSArray+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FDHelper.m"; sourceTree = "<group>"; };
+		44724EE91D5373360079DE29 /* NSMutableArray+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FDHelper.h"; sourceTree = "<group>"; };
+		44724EEA1D5373360079DE29 /* NSMutableArray+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FDHelper.m"; sourceTree = "<group>"; };
+		44724EEB1D5373360079DE29 /* UIColor+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FDHelper.h"; sourceTree = "<group>"; };
+		44724EEC1D5373360079DE29 /* UIColor+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FDHelper.m"; sourceTree = "<group>"; };
+		44724EED1D5373360079DE29 /* UIView+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDHelper.h"; sourceTree = "<group>"; };
+		44724EEE1D5373360079DE29 /* UIView+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDHelper.m"; sourceTree = "<group>"; };
+		44724EF01D5373360079DE29 /* FDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCache.h; sourceTree = "<group>"; };
+		44724EF11D5373360079DE29 /* FDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCache.m; sourceTree = "<group>"; };
+		44724EF21D5373360079DE29 /* FDDanmakuCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuCache.h; sourceTree = "<group>"; };
+		44724EF31D5373360079DE29 /* FDDanmakuCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuCache.m; sourceTree = "<group>"; };
+		44724EF41D5373360079DE29 /* FDDanmakuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuModel.h; sourceTree = "<group>"; };
+		44724EF51D5373360079DE29 /* FDDanmakuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuModel.m; sourceTree = "<group>"; };
+		44724EF61D5373360079DE29 /* FDDanmakuRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuRow.h; sourceTree = "<group>"; };
+		44724EF71D5373360079DE29 /* FDDanmakuRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuRow.m; sourceTree = "<group>"; };
+		44724EF91D5373360079DE29 /* FDDanmakuLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuLabel.h; sourceTree = "<group>"; };
+		44724EFA1D5373360079DE29 /* FDDanmakuLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuLabel.m; sourceTree = "<group>"; };
+		44724EFB1D5373360079DE29 /* FDDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuView.h; sourceTree = "<group>"; };
+		44724EFC1D5373360079DE29 /* FDDanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,37 +216,69 @@
 			isa = PBXGroup;
 			children = (
 				446CDCA51D4DB79C009EB769 /* FDDanmakuHeaders.h */,
-				446CDC9B1D4DB74A009EB769 /* FDDanmakuConstant.h */,
-				446CDC9C1D4DB74A009EB769 /* FDDanmakuConstant.m */,
-				446CDCAB1D4DCB83009EB769 /* UIColor+FDHelper.h */,
-				446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */,
-				446CDCB51D4E0BB5009EB769 /* NSArray+FDHelper.h */,
-				446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */,
-				44724ED81D53611C0079DE29 /* UIView+FDHelper.h */,
-				44724ED91D53611C0079DE29 /* UIView+FDHelper.m */,
-				446CDCBA1D4E0C7C009EB769 /* NSMutableArray+FDHelper.h */,
-				446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */,
-				446CDC781D4DB4C5009EB769 /* FDCache.h */,
-				446CDC791D4DB4C5009EB769 /* FDCache.m */,
-				446CDC7A1D4DB4C5009EB769 /* FDDanmakuCache.h */,
-				446CDC7B1D4DB4C5009EB769 /* FDDanmakuCache.m */,
-				446CDC7C1D4DB4C5009EB769 /* FDDanmakuModel.h */,
-				446CDC7D1D4DB4C5009EB769 /* FDDanmakuModel.m */,
-				446CDCB01D4DFD04009EB769 /* FDDanmakuRow.h */,
-				446CDCB11D4DFD04009EB769 /* FDDanmakuRow.m */,
-				446CDC7E1D4DB4C5009EB769 /* FDDanmakuONScreen.h */,
-				446CDC7F1D4DB4C5009EB769 /* FDDanmakuONScreen.m */,
-				446CDC801D4DB4C5009EB769 /* FDDanmakuUtility.h */,
-				446CDC811D4DB4C5009EB769 /* FDDanmakuUtility.m */,
-				446CDC821D4DB4C5009EB769 /* FDDanmakuView.h */,
-				446CDC831D4DB4C5009EB769 /* FDDanmakuView.m */,
-				446CDCA61D4DC6DB009EB769 /* FDDanmakuLabel.h */,
-				446CDCA71D4DC6DB009EB769 /* FDDanmakuLabel.m */,
-				446CDC841D4DB4C5009EB769 /* FDDanmakuViewController.h */,
-				446CDC851D4DB4C5009EB769 /* FDDanmakuViewController.m */,
+				44724EF81D5373360079DE29 /* View */,
+				44724EDD1D5373360079DE29 /* Controller */,
+				44724EEF1D5373360079DE29 /* Model */,
+				44724EE21D5373360079DE29 /* Helper */,
 			);
 			name = FDDanmaku;
 			path = ../../../FDDanmaku;
+			sourceTree = "<group>";
+		};
+		44724EDD1D5373360079DE29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44724EDE1D5373360079DE29 /* FDDanmakuONScreen.h */,
+				44724EDF1D5373360079DE29 /* FDDanmakuONScreen.m */,
+				44724EE01D5373360079DE29 /* FDDanmakuViewController.h */,
+				44724EE11D5373360079DE29 /* FDDanmakuViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44724EE21D5373360079DE29 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				44724EE31D5373360079DE29 /* FDDanmakuConstant.h */,
+				44724EE41D5373360079DE29 /* FDDanmakuConstant.m */,
+				44724EE51D5373360079DE29 /* FDDanmakuUtility.h */,
+				44724EE61D5373360079DE29 /* FDDanmakuUtility.m */,
+				44724EE71D5373360079DE29 /* NSArray+FDHelper.h */,
+				44724EE81D5373360079DE29 /* NSArray+FDHelper.m */,
+				44724EE91D5373360079DE29 /* NSMutableArray+FDHelper.h */,
+				44724EEA1D5373360079DE29 /* NSMutableArray+FDHelper.m */,
+				44724EEB1D5373360079DE29 /* UIColor+FDHelper.h */,
+				44724EEC1D5373360079DE29 /* UIColor+FDHelper.m */,
+				44724EED1D5373360079DE29 /* UIView+FDHelper.h */,
+				44724EEE1D5373360079DE29 /* UIView+FDHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		44724EEF1D5373360079DE29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44724EF01D5373360079DE29 /* FDCache.h */,
+				44724EF11D5373360079DE29 /* FDCache.m */,
+				44724EF21D5373360079DE29 /* FDDanmakuCache.h */,
+				44724EF31D5373360079DE29 /* FDDanmakuCache.m */,
+				44724EF41D5373360079DE29 /* FDDanmakuModel.h */,
+				44724EF51D5373360079DE29 /* FDDanmakuModel.m */,
+				44724EF61D5373360079DE29 /* FDDanmakuRow.h */,
+				44724EF71D5373360079DE29 /* FDDanmakuRow.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44724EF81D5373360079DE29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44724EF91D5373360079DE29 /* FDDanmakuLabel.h */,
+				44724EFA1D5373360079DE29 /* FDDanmakuLabel.m */,
+				44724EFB1D5373360079DE29 /* FDDanmakuView.h */,
+				44724EFC1D5373360079DE29 /* FDDanmakuView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,23 +411,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446CDCB71D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */,
-				446CDC891D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
-				446CDC951D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
-				446CDCBC1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */,
-				446CDC8C1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
-				446CDC8F1D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
-				44724EDA1D53611C0079DE29 /* UIView+FDHelper.m in Sources */,
-				446CDCAD1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
-				446CDC981D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
-				446CDC9D1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */,
 				446CDBE01D4B352F009EB769 /* ViewController.m in Sources */,
-				446CDC921D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
+				44724F0C1D5373360079DE29 /* NSMutableArray+FDHelper.m in Sources */,
+				44724F1E1D5373360079DE29 /* FDDanmakuRow.m in Sources */,
+				44724F241D5373360079DE29 /* FDDanmakuView.m in Sources */,
+				44724F151D5373360079DE29 /* FDCache.m in Sources */,
+				44724F181D5373360079DE29 /* FDDanmakuCache.m in Sources */,
 				446CDBDD1D4B352F009EB769 /* AppDelegate.m in Sources */,
-				446CDC861D4DB4C5009EB769 /* FDCache.m in Sources */,
-				446CDCA81D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
-				446CDCB21D4DFD04009EB769 /* FDDanmakuRow.m in Sources */,
+				44724F211D5373360079DE29 /* FDDanmakuLabel.m in Sources */,
+				44724F1B1D5373360079DE29 /* FDDanmakuModel.m in Sources */,
+				44724F091D5373360079DE29 /* NSArray+FDHelper.m in Sources */,
+				44724EFD1D5373360079DE29 /* FDDanmakuONScreen.m in Sources */,
+				44724F0F1D5373360079DE29 /* UIColor+FDHelper.m in Sources */,
+				44724F121D5373360079DE29 /* UIView+FDHelper.m in Sources */,
+				44724F031D5373360079DE29 /* FDDanmakuConstant.m in Sources */,
 				446CDBDA1D4B352F009EB769 /* main.m in Sources */,
+				44724F061D5373360079DE29 /* FDDanmakuUtility.m in Sources */,
+				44724F001D5373360079DE29 /* FDDanmakuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,21 +435,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446CDC871D4DB4C5009EB769 /* FDCache.m in Sources */,
+				44724F161D5373360079DE29 /* FDCache.m in Sources */,
+				44724F191D5373360079DE29 /* FDDanmakuCache.m in Sources */,
+				44724F1F1D5373360079DE29 /* FDDanmakuRow.m in Sources */,
+				44724F0A1D5373360079DE29 /* NSArray+FDHelper.m in Sources */,
+				44724F071D5373360079DE29 /* FDDanmakuUtility.m in Sources */,
+				44724F0D1D5373360079DE29 /* NSMutableArray+FDHelper.m in Sources */,
+				44724F221D5373360079DE29 /* FDDanmakuLabel.m in Sources */,
+				44724EFE1D5373360079DE29 /* FDDanmakuONScreen.m in Sources */,
+				44724F011D5373360079DE29 /* FDDanmakuViewController.m in Sources */,
+				44724F1C1D5373360079DE29 /* FDDanmakuModel.m in Sources */,
 				446CDBF31D4B352F009EB769 /* FDDanmakuDemoTests.m in Sources */,
-				446CDCB81D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */,
-				446CDC901D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
-				446CDC9E1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */,
-				446CDCAE1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
-				446CDC8A1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
-				446CDC931D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
-				446CDC961D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
-				446CDCBD1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */,
-				446CDCB31D4DFD04009EB769 /* FDDanmakuRow.m in Sources */,
-				44724EDB1D53611C0079DE29 /* UIView+FDHelper.m in Sources */,
-				446CDC991D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
-				446CDCA91D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
-				446CDC8D1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
+				44724F041D5373360079DE29 /* FDDanmakuConstant.m in Sources */,
+				44724F101D5373360079DE29 /* UIColor+FDHelper.m in Sources */,
+				44724F251D5373360079DE29 /* FDDanmakuView.m in Sources */,
+				44724F131D5373360079DE29 /* UIView+FDHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,21 +457,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446CDC881D4DB4C5009EB769 /* FDCache.m in Sources */,
+				44724F171D5373360079DE29 /* FDCache.m in Sources */,
+				44724F1A1D5373360079DE29 /* FDDanmakuCache.m in Sources */,
+				44724F201D5373360079DE29 /* FDDanmakuRow.m in Sources */,
+				44724F0B1D5373360079DE29 /* NSArray+FDHelper.m in Sources */,
+				44724F081D5373360079DE29 /* FDDanmakuUtility.m in Sources */,
+				44724F0E1D5373360079DE29 /* NSMutableArray+FDHelper.m in Sources */,
+				44724F231D5373360079DE29 /* FDDanmakuLabel.m in Sources */,
+				44724EFF1D5373360079DE29 /* FDDanmakuONScreen.m in Sources */,
+				44724F021D5373360079DE29 /* FDDanmakuViewController.m in Sources */,
+				44724F1D1D5373360079DE29 /* FDDanmakuModel.m in Sources */,
 				446CDBFE1D4B352F009EB769 /* FDDanmakuDemoUITests.m in Sources */,
-				446CDCB91D4E0BB5009EB769 /* NSArray+FDHelper.m in Sources */,
-				446CDC911D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
-				446CDC9F1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */,
-				446CDCAF1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
-				446CDC8B1D4DB4C5009EB769 /* FDDanmakuCache.m in Sources */,
-				446CDC941D4DB4C5009EB769 /* FDDanmakuUtility.m in Sources */,
-				446CDC971D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
-				446CDCBE1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */,
-				446CDCB41D4DFD04009EB769 /* FDDanmakuRow.m in Sources */,
-				44724EDC1D53611C0079DE29 /* UIView+FDHelper.m in Sources */,
-				446CDC9A1D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
-				446CDCAA1D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
-				446CDC8E1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
+				44724F051D5373360079DE29 /* FDDanmakuConstant.m in Sources */,
+				44724F111D5373360079DE29 /* UIColor+FDHelper.m in Sources */,
+				44724F261D5373360079DE29 /* FDDanmakuView.m in Sources */,
+				44724F141D5373360079DE29 /* UIView+FDHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
