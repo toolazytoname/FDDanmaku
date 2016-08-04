@@ -7,7 +7,6 @@
 //
 #import <UIKit/UIKit.h>
 #import "FDDanmakuONScreen.h"
-#import "FDDanmakuConstant.h"
 #import "FDDanmakuUtility.h"
 #import "FDDanmakuView.h"
 #import "FDDanmakuRow.h"
@@ -20,8 +19,6 @@
 *  equals @[self.rowsFlyFromRight,self.rowsFlyFromBottom,self.rowsFlyFromBottom]
 */
 @property (nonatomic, strong) NSMutableArray *allDiretionsArray;
-@property (nonatomic, strong) NSMutableArray *rowsFlyFromRight;
-@property (nonatomic, strong) NSMutableArray *rowsFlyFromBottom;
 @property (nonatomic, strong) NSMutableArray *rowsFlyFromTop;
 
 @end

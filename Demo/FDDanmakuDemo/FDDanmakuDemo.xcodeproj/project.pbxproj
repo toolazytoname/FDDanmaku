@@ -54,6 +54,9 @@
 		446CDCBC1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */; };
 		446CDCBD1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */; };
 		446CDCBE1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */; };
+		44724EDA1D53611C0079DE29 /* UIView+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724ED91D53611C0079DE29 /* UIView+FDHelper.m */; };
+		44724EDB1D53611C0079DE29 /* UIView+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724ED91D53611C0079DE29 /* UIView+FDHelper.m */; };
+		44724EDC1D53611C0079DE29 /* UIView+FDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724ED91D53611C0079DE29 /* UIView+FDHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,8 @@
 		446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FDHelper.m"; sourceTree = "<group>"; };
 		446CDCBA1D4E0C7C009EB769 /* NSMutableArray+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FDHelper.h"; sourceTree = "<group>"; };
 		446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FDHelper.m"; sourceTree = "<group>"; };
+		44724ED81D53611C0079DE29 /* UIView+FDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDHelper.h"; sourceTree = "<group>"; };
+		44724ED91D53611C0079DE29 /* UIView+FDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +222,8 @@
 				446CDCAC1D4DCB83009EB769 /* UIColor+FDHelper.m */,
 				446CDCB51D4E0BB5009EB769 /* NSArray+FDHelper.h */,
 				446CDCB61D4E0BB5009EB769 /* NSArray+FDHelper.m */,
+				44724ED81D53611C0079DE29 /* UIView+FDHelper.h */,
+				44724ED91D53611C0079DE29 /* UIView+FDHelper.m */,
 				446CDCBA1D4E0C7C009EB769 /* NSMutableArray+FDHelper.h */,
 				446CDCBB1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m */,
 				446CDC781D4DB4C5009EB769 /* FDCache.h */,
@@ -378,6 +385,7 @@
 				446CDCBC1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */,
 				446CDC8C1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
 				446CDC8F1D4DB4C5009EB769 /* FDDanmakuONScreen.m in Sources */,
+				44724EDA1D53611C0079DE29 /* UIView+FDHelper.m in Sources */,
 				446CDCAD1D4DCB83009EB769 /* UIColor+FDHelper.m in Sources */,
 				446CDC981D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
 				446CDC9D1D4DB74A009EB769 /* FDDanmakuConstant.m in Sources */,
@@ -406,6 +414,7 @@
 				446CDC961D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
 				446CDCBD1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */,
 				446CDCB31D4DFD04009EB769 /* FDDanmakuRow.m in Sources */,
+				44724EDB1D53611C0079DE29 /* UIView+FDHelper.m in Sources */,
 				446CDC991D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
 				446CDCA91D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
 				446CDC8D1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
@@ -427,6 +436,7 @@
 				446CDC971D4DB4C5009EB769 /* FDDanmakuView.m in Sources */,
 				446CDCBE1D4E0C7C009EB769 /* NSMutableArray+FDHelper.m in Sources */,
 				446CDCB41D4DFD04009EB769 /* FDDanmakuRow.m in Sources */,
+				44724EDC1D53611C0079DE29 /* UIView+FDHelper.m in Sources */,
 				446CDC9A1D4DB4C5009EB769 /* FDDanmakuViewController.m in Sources */,
 				446CDCAA1D4DC6DB009EB769 /* FDDanmakuLabel.m in Sources */,
 				446CDC8E1D4DB4C5009EB769 /* FDDanmakuModel.m in Sources */,
@@ -639,6 +649,7 @@
 				446CDC041D4B352F009EB769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		446CDC051D4B352F009EB769 /* Build configuration list for PBXNativeTarget "FDDanmakuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +658,7 @@
 				446CDC071D4B352F009EB769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		446CDC081D4B352F009EB769 /* Build configuration list for PBXNativeTarget "FDDanmakuDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +667,7 @@
 				446CDC0A1D4B352F009EB769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

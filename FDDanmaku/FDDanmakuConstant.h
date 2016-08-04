@@ -10,6 +10,8 @@
 
 @interface FDDanmakuConstant : NSObject
 
+#define FDRequestTimeInterval                  18000     //5小时
+
 /**
  *  弹幕类型
  */
