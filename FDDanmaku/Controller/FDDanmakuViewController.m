@@ -7,7 +7,6 @@
 //
 
 #import "FDDanmakuViewController.h"
-#import "FDDanmakuConstant.h"
 #import "FDDanmakuONScreen.h"
 #import "FDDanmakuRow.h"
 #import "FDDanmakuView.h"
@@ -37,7 +36,8 @@
 - (void)loadView {
     UIView *view = [[UIView alloc] initWithFrame:CGRectZero];
     view.userInteractionEnabled = NO;
-    view.backgroundColor = [UIColor clearColor];
+//    view.backgroundColor = [UIColor clearColor];
+    view.backgroundColor = [UIColor redColor];
     self.view = view;
 }
 

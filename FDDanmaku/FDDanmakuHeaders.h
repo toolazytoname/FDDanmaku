@@ -9,5 +9,7 @@
 #ifndef FDDanmakuHeaders_h
 #define FDDanmakuHeaders_h
 
+#import "FDDanmakuViewController.h"
+#import "FDDanmakuConstant.h"
 
 #endif /* FDDanmakuHeaders_h */

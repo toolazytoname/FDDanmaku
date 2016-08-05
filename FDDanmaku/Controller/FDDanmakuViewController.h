@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FDDanmakuConstant.h"
 
 @interface FDDanmakuViewController : UIViewController
-
+- (void)updateWithFrame:(CGRect)frame frameType:(FDDanmakuFrameType)frameType;
 @end
