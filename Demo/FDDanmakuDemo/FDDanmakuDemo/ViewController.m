@@ -56,23 +56,33 @@
         case UIDeviceOrientationLandscapeRight: {
             width = longSide;
             height = shortSide;
-        }
             break;
+        }
         case UIDeviceOrientationPortraitUpsideDown:{
             width = shortSide;
             height = longSide;
             break;
-            }
+        }
         default:
+            return;
             break;
     }
     CGRect danmakuFrame = CGRectMake(0, 0,width,height);
+    NSLog(@"orientation:%i;width:%f;height:%f;",(int)orientation,width,height);
     [self.danmakuViewController updateWithFrame:danmakuFrame frameType:FDDanmakuFrameTypePadFullScreen];
 }
 
 - (void)addDanmaku {
     [self addChildViewController:self.danmakuViewController];
     [self.view addSubview:self.danmakuViewController.view];
+}
+
+- (BOOL)shouldAutorotate {
+    return YES;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskAll;
 }
 
 
