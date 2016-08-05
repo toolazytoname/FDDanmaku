@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 #import "FDDanmakuHeaders.h"
-
+//大体思路，先跑起来，然后逐步优化，通用，简单，合理
+//1.导出弹幕数据
+//2.外部加一个timer定时器
+//3.完成展示逻辑
 @interface ViewController ()
 
 @property (nonatomic,strong) FDDanmakuViewController *danmakuViewController;
