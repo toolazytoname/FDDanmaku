@@ -10,5 +10,11 @@
 #import "FDDanmakuConstant.h"
 
 @interface FDDanmakuViewController : UIViewController
+
+@property (nonatomic, strong) NSMutableDictionary *danmakuDic;
+
+
+
 - (void)updateWithFrame:(CGRect)frame frameType:(FDDanmakuFrameType)frameType;
+
 @end

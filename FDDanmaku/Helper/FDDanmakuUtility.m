@@ -109,4 +109,16 @@
     return shadowColorHex;
 }
 
++ (NSMutableDictionary *)packDanmakuDic:(NSArray *)danmakuArray {
+    NSMutableDictionary *danmakuDic = [[NSMutableDictionary alloc] init];
+    NSSet *uniqueShowTimeSet = [NSSet setWithArray:[danmakuArray valueForKey:@"showTime"]];
+    [uniqueShowTimeSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"showTime = %@",obj];
+        NSArray *currentTimeDanmakuArray = [danmakuArray filteredArrayUsingPredicate:predicate];
+        [danmakuDic setObject:currentTimeDanmakuArray forKey:obj];
+    }];
+    return danmakuDic;
+}
+
+
 @end

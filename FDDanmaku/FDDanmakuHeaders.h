@@ -11,5 +11,7 @@
 
 #import "FDDanmakuViewController.h"
 #import "FDDanmakuConstant.h"
+#import "FDDanmakuModel.h"
+#import "FDDanmakuUtility.h"
 
 #endif /* FDDanmakuHeaders_h */

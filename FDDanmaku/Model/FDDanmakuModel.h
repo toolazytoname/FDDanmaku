@@ -11,16 +11,17 @@
 
 @interface FDDanmakuModel : NSObject
 
-@property (nonatomic, assign) BOOL sentByMyself;
-@property (nonatomic, assign) NSInteger createTime;
-@property (nonatomic, assign) NSInteger showTime;
-@property (nonatomic, assign) FDDanmakuFontSizeType fontSize;
-@property (nonatomic, assign) FDDanmakuType danmakuType;
-@property (nonatomic, copy)   NSString *content;
-@property (nonatomic, copy)   NSString *nickName;
-@property (nonatomic, copy)   NSString *color;
-@property (nonatomic, copy)   NSString *headPicture;   //明星弹幕头像
+@property (nonatomic, strong) NSString *content;
+@property (nonatomic, assign) double showTime;
+@property (nonatomic, strong) NSString *color;
+@property (nonatomic, assign) FDDanmakuFontSizeType fontSizeType;
+@property (nonatomic, assign) FDDanmakuDirectionType directionType;
 
+
+@property (nonatomic, assign) double createTime;
+@property (nonatomic, assign) FDDanmakuType danmakuType;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dict;
 
 
 @end

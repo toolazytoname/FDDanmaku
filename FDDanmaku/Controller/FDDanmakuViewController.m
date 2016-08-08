@@ -137,6 +137,21 @@
 - (void)requestWithRange:(NSRange)timeRange {
     [self.requestedTimeRange addObject:[NSValue valueWithRange:timeRange]];
 }
+
+//遍历弹幕数据
+//确定行高和整个屏幕行数
+//根据当前时间,找到对应的弹幕数据
+
+
+//之前_storage 里面right < 0的都被remove 和删除
+//- (void)
+
+
+- (NSArray *)danmakuArrayWithTime:(NSTimeInterval)currentTime {
+    NSArray *danmakuArray = [self.danmakuDic valueForKey:[@(currentTime) stringValue]];
+    return danmakuArray;
+}
+
 #pragma mark - lazy Load
 - (FDDanmakuONScreen *)danmakuONScreen {
     if (!_danmakuONScreen) {

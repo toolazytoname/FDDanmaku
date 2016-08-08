@@ -21,4 +21,6 @@
                       viewHeight:(CGFloat)viewHeight
                     fontSizeType:(FDDanmakuFontSizeType)fontSizeType;
 
++ (NSMutableDictionary *)packDanmakuDic:(NSArray *)danmakuArray;
+
 @end

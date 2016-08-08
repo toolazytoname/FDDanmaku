@@ -54,7 +54,7 @@
     }
     [self setTextColor:color];
     //font size
-    CGFloat fontSzie =[FDDanmakuUtility fontSizeWithFrameType:frameType viewHeight:viewHeight fontSizeType:danmakuModel.fontSize];
+    CGFloat fontSzie =[FDDanmakuUtility fontSizeWithFrameType:frameType viewHeight:viewHeight fontSizeType:danmakuModel.fontSizeType];
     [self setFont:[UIFont systemFontOfSize:fontSzie]];
     
     //text and border
@@ -66,7 +66,7 @@
             break;
         }
         case FDDanmakuTypeStar: {
-            [self setText:[NSString stringWithFormat:@"%@：%@",danmakuModel.nickName,danmakuModel.content]];
+//            [self setText:[NSString stringWithFormat:@"%@：%@",danmakuModel.nickName,danmakuModel.content]];
             break;
         }
         default: {
