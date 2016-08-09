@@ -12,8 +12,7 @@
 @interface FDDanmakuViewController : UIViewController
 
 @property (nonatomic, strong) NSMutableDictionary *danmakuDic;
-
-
+@property (nonatomic, strong) CADisplayLink *displayLink;
 
 - (void)updateWithFrame:(CGRect)frame frameType:(FDDanmakuFrameType)frameType;
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444941671D5979C90040AE96 /* FDVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 444941661D5979C90040AE96 /* FDVideoPlayer.m */; };
+		444941681D5979C90040AE96 /* FDVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 444941661D5979C90040AE96 /* FDVideoPlayer.m */; };
+		444941691D5979C90040AE96 /* FDVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 444941661D5979C90040AE96 /* FDVideoPlayer.m */; };
 		446CDBDA1D4B352F009EB769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDBD91D4B352F009EB769 /* main.m */; };
 		446CDBDD1D4B352F009EB769 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDBDC1D4B352F009EB769 /* AppDelegate.m */; };
 		446CDBE01D4B352F009EB769 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CDBDF1D4B352F009EB769 /* ViewController.m */; };
@@ -77,6 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		444941651D5979C90040AE96 /* FDVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDVideoPlayer.h; sourceTree = "<group>"; };
+		444941661D5979C90040AE96 /* FDVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDVideoPlayer.m; sourceTree = "<group>"; };
 		446CDBD51D4B352F009EB769 /* FDDanmakuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDDanmakuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		446CDBD91D4B352F009EB769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		446CDBDB1D4B352F009EB769 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -177,6 +182,8 @@
 				446CDBDC1D4B352F009EB769 /* AppDelegate.m */,
 				446CDBDE1D4B352F009EB769 /* ViewController.h */,
 				446CDBDF1D4B352F009EB769 /* ViewController.m */,
+				444941651D5979C90040AE96 /* FDVideoPlayer.h */,
+				444941661D5979C90040AE96 /* FDVideoPlayer.m */,
 				446CDBE11D4B352F009EB769 /* Main.storyboard */,
 				446CDBE41D4B352F009EB769 /* Assets.xcassets */,
 				446CDBE61D4B352F009EB769 /* LaunchScreen.storyboard */,
@@ -419,6 +426,7 @@
 				44724F181D5373360079DE29 /* FDDanmakuCache.m in Sources */,
 				446CDBDD1D4B352F009EB769 /* AppDelegate.m in Sources */,
 				44724F211D5373360079DE29 /* FDDanmakuLabel.m in Sources */,
+				444941671D5979C90040AE96 /* FDVideoPlayer.m in Sources */,
 				44724F1B1D5373360079DE29 /* FDDanmakuModel.m in Sources */,
 				44724F091D5373360079DE29 /* NSArray+FDHelper.m in Sources */,
 				44724EFD1D5373360079DE29 /* FDDanmakuONScreen.m in Sources */,
@@ -449,6 +457,7 @@
 				44724F041D5373360079DE29 /* FDDanmakuConstant.m in Sources */,
 				44724F101D5373360079DE29 /* UIColor+FDHelper.m in Sources */,
 				44724F251D5373360079DE29 /* FDDanmakuView.m in Sources */,
+				444941681D5979C90040AE96 /* FDVideoPlayer.m in Sources */,
 				44724F131D5373360079DE29 /* UIView+FDHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +480,7 @@
 				44724F051D5373360079DE29 /* FDDanmakuConstant.m in Sources */,
 				44724F111D5373360079DE29 /* UIColor+FDHelper.m in Sources */,
 				44724F261D5373360079DE29 /* FDDanmakuView.m in Sources */,
+				444941691D5979C90040AE96 /* FDVideoPlayer.m in Sources */,
 				44724F141D5373360079DE29 /* UIView+FDHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

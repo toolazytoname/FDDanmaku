@@ -115,7 +115,8 @@
     [uniqueShowTimeSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"showTime = %@",obj];
         NSArray *currentTimeDanmakuArray = [danmakuArray filteredArrayUsingPredicate:predicate];
-        [danmakuDic setObject:currentTimeDanmakuArray forKey:obj];
+        NSString *key = [[NSString alloc] initWithFormat:@"%@",obj];
+        [danmakuDic setObject:currentTimeDanmakuArray forKey:key];
     }];
     return danmakuDic;
 }

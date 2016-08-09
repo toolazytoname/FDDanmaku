@@ -11,9 +11,10 @@
 #import "FDDanmakuRow.h"
 #import "FDDanmakuView.h"
 #import "UIView+FDHelper.h"
+#import "FDVideoPlayer.h"
 
 @interface FDDanmakuViewController ()
-@property (nonatomic, strong) CADisplayLink *displayLink;
+
 @property (nonatomic, strong) FDDanmakuONScreen *danmakuONScreen;
 @property (nonatomic, assign) BOOL isDanmakuON;
 @property (nonatomic, strong) NSMutableArray *requestedTimeRange;
@@ -146,9 +147,16 @@
 //之前_storage 里面right < 0的都被remove 和删除
 //- (void)
 
+- (void)refreshDanmakuViews {
+    NSTimeInterval currentTime = [[FDVideoPlayer sharedPlayer] playPostion];
+    NSArray *danmakuArray = [self danmakuArrayWithTime:currentTime];
+    
+}
 
 - (NSArray *)danmakuArrayWithTime:(NSTimeInterval)currentTime {
-    NSArray *danmakuArray = [self.danmakuDic valueForKey:[@(currentTime) stringValue]];
+    NSString *key = [NSString stringWithFormat:@"%.0f",currentTime];
+    NSArray *danmakuArray = [self.danmakuDic valueForKey:key];
+    NSLog(@"time:%@;array:%@",key,danmakuArray);
     return danmakuArray;
 }
 
@@ -162,7 +170,7 @@
 
 - (CADisplayLink *)displayLink {
     if (!_displayLink) {
-        _displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(checkDanmaku)];
+        _displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(refreshDanmakuViews)];
         [_displayLink setFrameInterval:60];
         [_displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
     }

@@ -114,6 +114,7 @@
         }];
 //        NSLog(@"danmakuArray:%@",danmakuArray);
         self.danmakuViewController.danmakuDic = [FDDanmakuUtility packDanmakuDic:danmakuArray];
+        [self.danmakuViewController displayLink];
     }];
     [task resume];
 }
