@@ -8,9 +8,7 @@
 
 #import "FDDanmakuView.h"
 #import "FDDanmakuLabel.h"
-#import "FDDanmakuModel.h"
-#import "FDDanmakuConstant.h"
-#import "FDDanmakuLabel.h"
+
 
 @interface FDDanmakuView()
 //@property (nonatomic, retain) FDDanmakuLabel *itemLabel;

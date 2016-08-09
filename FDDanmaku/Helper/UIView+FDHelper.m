@@ -39,5 +39,35 @@
     self.frame = frame;
 }
 
+- (CGFloat)right {
+    return self.frame.origin.x + self.frame.size.width;
+}
+
+- (void)setRight:(CGFloat)right {
+    CGRect frame = self.frame;
+    frame.origin.x = right - frame.size.width;
+    self.frame = frame;
+}
+
+- (CGFloat)width {
+    return self.frame.size.width;
+}
+
+- (void)setWidth:(CGFloat)width {
+    CGRect frame = self.frame;
+    frame.size.width = width;
+    self.frame = frame;
+}
+
+- (CGPoint)origin {
+    return self.frame.origin;
+}
+
+- (void)setOrigin:(CGPoint)origin {
+    CGRect frame = self.frame;
+    frame.origin = origin;
+    self.frame = frame;
+}
+
 
 @end

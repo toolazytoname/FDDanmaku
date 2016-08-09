@@ -12,10 +12,14 @@
 #import "FDDanmakuView.h"
 #import "UIView+FDHelper.h"
 #import "FDVideoPlayer.h"
+#import "FDDanmakuUtility.h"
+#import "FDDanmakuModel.h"
+#import "FDDanmakuConstant.h"
 
 @interface FDDanmakuViewController ()
 
 @property (nonatomic, strong) FDDanmakuONScreen *danmakuONScreen;
+@property (nonatomic, assign) FDDanmakuFrameType frameType;
 @property (nonatomic, assign) BOOL isDanmakuON;
 @property (nonatomic, strong) NSMutableArray *requestedTimeRange;
 @property (nonatomic, assign) BOOL isPaused;
@@ -53,6 +57,7 @@
 }
 
 - (void)updateWithFrame:(CGRect)frame frameType:(FDDanmakuFrameType)frameType {
+    self.frameType = frameType;
     CGFloat deltaHeight = CGRectGetHeight(frame) - self.view.height;
     self.view.frame = frame;
     if (FDDanmakuFrameTypePhoneInline == frameType) {
@@ -148,15 +153,90 @@
 //- (void)
 
 - (void)refreshDanmakuViews {
+    
+    [self.view.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (obj && [obj isKindOfClass:[FDDanmakuView class]]) {
+            FDDanmakuView *danmakuView = (FDDanmakuView *)obj;
+            if(danmakuView.right <= 0) {
+//                [danmakuView removeFromSuperview];
+            }
+        }
+    }];
+    
+    
+//    NSInteger rowNumber = [FDDanmakuUtility rowNumberWithFrameType:self.frameType];
+    NSInteger rowHeight = [FDDanmakuUtility rowHeightWithFrameType:self.frameType viewHeight:self.view.height];
     NSTimeInterval currentTime = [[FDVideoPlayer sharedPlayer] playPostion];
     NSArray *danmakuArray = [self danmakuArrayWithTime:currentTime];
     
+    [danmakuArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (obj && [obj isKindOfClass:[FDDanmakuModel class]]) {
+            FDDanmakuModel *danmakuModel = (FDDanmakuModel *)obj;
+            NSInteger row = [self rightRowToFlyWithDirectionType:danmakuModel.directionType] + 2;
+            if (-1 == row) {
+                *stop = YES;
+                return ;
+            }
+            FDDanmakuView *danmakuView = [[FDDanmakuView alloc] init];
+            if (FDDanmakuDirectionTypeRight == danmakuModel.directionType) {
+                [danmakuView updateWithModel:danmakuModel FrameType:FDDanmakuFrameTypePhoneInline viewHeight:self.view.height];
+                CGPoint startPoint = CGPointMake(self.view.width, rowHeight*row);
+                
+                danmakuView.origin = startPoint;
+                [self.view addSubview:danmakuView];
+                [UIView animateWithDuration:7 animations:^{
+                    danmakuView.right = 0;
+                }];
+            }
+        }
+    }];
+    
+    
+}
+
+- (NSInteger)rightRowToFlyWithDirectionType:(FDDanmakuDirectionType)danmakuDirectionType {
+    NSInteger rowHeight = [FDDanmakuUtility rowHeightWithFrameType:self.frameType viewHeight:self.view.height];
+    NSInteger rowNumber = [FDDanmakuUtility rowNumberWithFrameType:self.frameType];
+//    NSInteger row = 0;
+
+    for (NSInteger row = 0; row < rowNumber; row++) {
+        CGRect firstRowRect = CGRectMake(0, row*rowHeight, self.view.width, rowHeight);
+        NSMutableArray *currentRowDanmakuViewArray = [[NSMutableArray alloc] init];
+        [self.view.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            if (obj && [obj isKindOfClass:[FDDanmakuView class]] && CGRectContainsRect(firstRowRect, self.view.frame)) {
+                [currentRowDanmakuViewArray addObject:self.view];
+            }
+        }];
+        //如果当前行木有，则返回当前行
+        if (0 == currentRowDanmakuViewArray.count) {
+            return row;
+            break;
+        }
+        
+        if (currentRowDanmakuViewArray.count > 0) {
+            FDDanmakuView *rightDanmakuView = [currentRowDanmakuViewArray valueForKeyPath:@"max.right"];
+            NSLog(@"currentRowDanmakuViewArray:%@",currentRowDanmakuViewArray);
+            NSLog(@"rightDanmakuView:%@",rightDanmakuView);
+            CGFloat rightFreeSpace = self.view.width - rightDanmakuView.right;
+            //有足够的空间
+            if (rightFreeSpace > self.view.width/3) {
+                return row;
+                break;
+            }
+            //直到最后一行，也没有足够的空间
+            if (rightFreeSpace < self.view.width/3 && (row = rowNumber - 1)) {
+                return -1;
+                break;
+
+            }
+        }
+    }
+    return -1;
 }
 
 - (NSArray *)danmakuArrayWithTime:(NSTimeInterval)currentTime {
     NSString *key = [NSString stringWithFormat:@"%.0f",currentTime];
     NSArray *danmakuArray = [self.danmakuDic valueForKey:key];
-    NSLog(@"time:%@;array:%@",key,danmakuArray);
     return danmakuArray;
 }
 

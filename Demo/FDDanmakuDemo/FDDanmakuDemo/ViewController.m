@@ -91,7 +91,7 @@
 
 
 - (void)request {
-    NSURL *url = [NSURL URLWithString:@"http://api.danmu.tv.sohu.com/danmu?act=dmlist&vid=3186419&pct=2&aid=9076230&request_from=sohu_vrs_player&num=10000"];
+    NSURL *url = [NSURL URLWithString:@"http://api.danmu.tv.sohu.com/danmu?act=dmlist&vid=3186419&pct=2&aid=9076230&request_from=sohu_vrs_player&num=1000"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     NSURLSession *session = [NSURLSession sharedSession];
     NSURLSessionDataTask *task = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {

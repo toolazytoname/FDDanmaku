@@ -23,7 +23,7 @@
     return self;
 }
 
-- (void)drawTextInRect:(CGRect)rect {
+//- (void)drawTextInRect:(CGRect)rect {
 //    CGSize shadowOffset = self.shadowOffset;
 //    UIColor *textColor = self.textColor;
     
@@ -38,7 +38,7 @@
 //    CGContextSetTextDrawingMode(context, kCGTextFill);
 //    self.shadowOffset = CGSizeMake(0, 0);
 //    [super drawTextInRect:rect];
-}
+//}
 
 
 - (void)updateWithModel:(FDDanmakuModel *)danmakuModel

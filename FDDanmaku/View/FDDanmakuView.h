@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FDDanmakuModel.h"
+#import "FDDanmakuConstant.h"
 
 @interface FDDanmakuView : UIView
-
+- (void)updateWithModel:(FDDanmakuModel *)danmakuModel
+              FrameType:(FDDanmakuFrameType)frameType
+             viewHeight:(CGFloat)viewHeight;
 @end

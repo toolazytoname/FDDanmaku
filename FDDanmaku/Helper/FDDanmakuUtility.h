@@ -17,10 +17,17 @@
 
 + (NSInteger)rowNumberWithFrameType:(FDDanmakuFrameType)frameType;
 
++ (CGFloat)rowHeightWithFrameType:(FDDanmakuFrameType)frameType
+                       viewHeight:(CGFloat)viewHeight;
+
 + (CGFloat)fontSizeWithFrameType:(FDDanmakuFrameType)frameType
                       viewHeight:(CGFloat)viewHeight
                     fontSizeType:(FDDanmakuFontSizeType)fontSizeType;
 
+/**
+ *  封装完成以后的弹幕数据是一个大字典，key是时间，value是一个弹幕数组
+ *
+ */
 + (NSMutableDictionary *)packDanmakuDic:(NSArray *)danmakuArray;
 
 @end

@@ -60,6 +60,9 @@
 		44724F241D5373360079DE29 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EFC1D5373360079DE29 /* FDDanmakuView.m */; };
 		44724F251D5373360079DE29 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EFC1D5373360079DE29 /* FDDanmakuView.m */; };
 		44724F261D5373360079DE29 /* FDDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44724EFC1D5373360079DE29 /* FDDanmakuView.m */; };
+		44A2E7FC1D59DA6400BD04DB /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A2E7FB1D59DA6400BD04DB /* Reveal.framework */; };
+		44A2E7FD1D59DA6400BD04DB /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A2E7FB1D59DA6400BD04DB /* Reveal.framework */; };
+		44A2E7FE1D59DA6400BD04DB /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A2E7FB1D59DA6400BD04DB /* Reveal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +130,7 @@
 		44724EFA1D5373360079DE29 /* FDDanmakuLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuLabel.m; sourceTree = "<group>"; };
 		44724EFB1D5373360079DE29 /* FDDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDanmakuView.h; sourceTree = "<group>"; };
 		44724EFC1D5373360079DE29 /* FDDanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDanmakuView.m; sourceTree = "<group>"; };
+		44A2E7FB1D59DA6400BD04DB /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A2E7FC1D59DA6400BD04DB /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A2E7FD1D59DA6400BD04DB /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A2E7FE1D59DA6400BD04DB /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +164,7 @@
 		446CDBCC1D4B352F009EB769 = {
 			isa = PBXGroup;
 			children = (
+				44A2E7FA1D59DA5500BD04DB /* Frameworks */,
 				446CDBD71D4B352F009EB769 /* FDDanmakuDemo */,
 				446CDBF11D4B352F009EB769 /* FDDanmakuDemoTests */,
 				446CDBFC1D4B352F009EB769 /* FDDanmakuDemoUITests */,
@@ -286,6 +294,14 @@
 				44724EFC1D5373360079DE29 /* FDDanmakuView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		44A2E7FA1D59DA5500BD04DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A2E7FB1D59DA6400BD04DB /* Reveal.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,9 +573,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -596,8 +613,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -608,8 +626,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FDDanmakuDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FG.FDDanmakuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -619,6 +647,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FDDanmakuDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FG.FDDanmakuDemo;
@@ -630,6 +662,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FDDanmakuDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FG.FDDanmakuDemoTests;
@@ -642,6 +678,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FDDanmakuDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FG.FDDanmakuDemoTests;
@@ -653,6 +693,10 @@
 		446CDC091D4B352F009EB769 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FDDanmakuDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FG.FDDanmakuDemoUITests;
@@ -664,6 +708,10 @@
 		446CDC0A1D4B352F009EB769 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FDDanmakuDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FG.FDDanmakuDemoUITests;

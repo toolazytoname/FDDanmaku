@@ -31,4 +31,22 @@
  */
 @property (nonatomic) CGFloat bottom;
 
+/**
+ * Shortcut for frame.origin.x + frame.size.width
+ *
+ * Sets frame.origin.x = right - frame.size.width
+ */
+@property (nonatomic) CGFloat right;
+
+/**
+ * Shortcut for frame.size.width
+ *
+ * Sets frame.size.width = width
+ */
+@property (nonatomic) CGFloat width;
+
+/**
+ * Shortcut for frame.origin
+ */
+@property (nonatomic) CGPoint origin;
 @end
